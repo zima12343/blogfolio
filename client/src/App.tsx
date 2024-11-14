@@ -1,23 +1,17 @@
 import './App.css'
-import Button from './ui_components/Buttons/Button/Button'
-import UserButton from './ui_components/Buttons/UserButton/UserButton'
+import Card from './ui_components/Card/Card'
+import Tabs from './ui_components/Tabs/Tabs'
 
 function App() {
 
   return (
-   <>
-    <Button type={'primary'} isActive={true} title={'Кнопка 1'} onButtonClick={function (): void {
-        throw new Error('Function not implemented.')
-      } } ></Button>
-      <Button type={'default'} isActive={false} title={'Кнопка 2'} onButtonClick={function (): void {
-        throw new Error('Function not implemented.')
-      } } ></Button>
-       <Button type={'warning'} isActive={false} title={'Кнопка 2'} onButtonClick={function (): void {
-        throw new Error('Function not implemented.')
-      } } ></Button>
+    <>
+      <Card type={'middle'} id={0}
+        title={'The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony'} date={new Date("2024-12-12")}
+        text={'The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony The firefly danced gracefully under the midnight sky, creating a symphony of enchantment and harmony'}
+        image='hash' />
 
-      <UserButton userName='Ivanov Petr'></UserButton>
-   </>
+    </>
   )
 }
 
