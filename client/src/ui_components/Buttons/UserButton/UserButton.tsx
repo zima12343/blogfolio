@@ -6,7 +6,9 @@ interface IProps {
 
 const UserButton = ({userName}:IProps) => {
     if(!userName){
-        return <i className={"fa-regular fa-user " + style.noUserIcon}></i>
+        return <div className={style.noUserWrap}>
+            <i className={"fa-regular fa-user " + style.noUserIcon}></i>
+            </div>
     }
     return <div className={style.wrap}>
         <span className={style.userIcon}>{userName.split(' ').reduce((acc:string, val) => acc += val[0], "")}</span>

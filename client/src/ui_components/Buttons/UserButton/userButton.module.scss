@@ -2,6 +2,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 0 30px;
 }
 
 .userName {
@@ -28,4 +29,11 @@
 .noUserIcon {
     font-size: 24px;
     color: #fff;
+}
+
+.noUserWrap {
+    min-width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,0 +1,22 @@
+.wrap {
+    width: 620px;
+    margin: auto;
+    border: 1px solid #DADADA;
+    padding: 40px;
+}
+
+.signIn {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    span {
+        color: #8d8e97;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    a {
+        color: #2231aa;
+    }
+}

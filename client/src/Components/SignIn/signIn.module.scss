@@ -1,0 +1,33 @@
+.wrap {
+    padding: 40px;
+    border: 1px solid #DADADA;
+    width: 620px;
+    margin: 70px auto 0;
+
+    a {
+        
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .Light {
+        color: #313037;
+    }
+
+    .Dark {
+        color: #fff;
+    }
+}
+
+.forgotPassword {
+    display: block;
+    margin: 16px 0 48px 0;
+
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 5px
+}

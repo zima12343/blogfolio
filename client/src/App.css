@@ -12,3 +12,8 @@
 html {
   font-family: 'Inter', 'Catamaran', sans-serif;
 }
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
