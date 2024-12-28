@@ -1,0 +1,54 @@
+.dark-theme {
+    background-color: #313037;
+
+    p {
+        color: #FFFFFF;
+    }
+
+    i {
+        color: #FFFFFF;
+    }
+
+    span {
+        color: #FFFFFF;
+    }
+
+    h2 {
+        color: #FFFFFF;
+    }
+
+    label {
+        color: #FFFFFF;
+    }
+}
+
+.light-theme {
+    background-color: #f3f3f3;
+
+    p {
+        color: #313037;
+    }
+
+    i {
+        color: #313037;
+    }
+
+    h2 {
+        color: #313037;
+    }
+
+    label {
+        color: #313037;
+    }
+}
+
+.wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    margin-top: 85px;
+}

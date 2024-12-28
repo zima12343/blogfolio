@@ -1,0 +1,28 @@
+.wrap {
+    padding: 0 30px;
+    cursor: pointer;
+    border-left: 1px solid #5360CD;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2231AA;
+}
+
+.userName {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.userIcon {
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #5360CD;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}

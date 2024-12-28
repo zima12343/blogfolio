@@ -1,0 +1,17 @@
+.wrap{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.left{
+    width: calc(70% - 5px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.right {
+    width: calc(30% - 5px);
+}

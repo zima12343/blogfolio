@@ -1,0 +1,23 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 65px
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 25px;
+    span {
+        padding: 0 40px 25px;
+        cursor: pointer;
+    }
+
+    .light-active {
+        border-bottom: 2px solid #313037;;
+    }
+
+    .dark-active {
+        border-bottom: 2px solid #DADADA;;
+    }
+}
