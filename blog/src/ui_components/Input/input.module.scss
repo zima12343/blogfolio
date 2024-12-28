@@ -1,0 +1,33 @@
+.wrap {
+    margin-top: 40px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    label {
+        display: block;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    input {
+        width: 100%;
+        border: 0;
+        line-height: 54px;
+        font-size: 16px;
+        color: #8D8E97;
+        font-weight: 400;
+        padding: 0 20px;
+        margin-top: 8px;
+    }
+
+    input:focus {
+        outline: 0;
+    }
+
+    input::placeholder {
+        color: #8D8E97;
+    }
+}
