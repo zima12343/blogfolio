@@ -1,4 +1,4 @@
-import { ICard } from "../../types/types";
+import { ICard, ITabArgs } from "../../types/types";
 import AllCards from "../../ui_components/AllCards/AllCards";
 import Card from "../../ui_components/Card/Card";
 import FavoriteCards from "../../ui_components/FavoriteCards/FavoriteCards";
@@ -7,7 +7,7 @@ import Title from "../../ui_components/Title/Title";
 
 const MainPage = () => {
  
-    const tab = [
+    const tab: ITabArgs[] = [
         {
             title: "All",
             Content: AllCards

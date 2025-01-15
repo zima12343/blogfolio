@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import style from './tabs.module.scss'
 import { useSelector } from 'react-redux';
+import { ITabArgs } from '../../types/types';
 
 interface IProps {
-    args: {}[]
+    args: ITabArgs[]
 }
 
 

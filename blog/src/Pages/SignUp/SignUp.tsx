@@ -21,12 +21,10 @@ const SignUp = () => {
         setLogin((prev: any) => ({ ...prev, [e.target.name]: e.target.value }));
     }
     const {user} = useSelector((state:any) => state.signUpSl)
-    console.log(user)
     const nav = useNavigate();
     useEffect(() => {
         if(user) {
             nav("/confirmation", { replace: true });
-            console.log('ineffect ----',user)
         }
     },[user])
     

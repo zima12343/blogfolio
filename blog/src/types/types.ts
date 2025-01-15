@@ -22,3 +22,8 @@ export interface IUserLogin {
     password: string,
     passwordConfirm: string,
 }
+
+export interface ITabArgs {
+    title: string;
+    Content: () => JSX.Element;
+}
