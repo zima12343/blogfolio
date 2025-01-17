@@ -1,0 +1,105 @@
+.middle_card {
+    max-width: calc(50% - 15px);
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DADADA;
+
+    .content_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            height: 245px;
+            object-fit: cover;
+        }
+
+        .text_wrap {
+            margin-top: 25px;
+
+            span {
+                color: #8D8E97;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            p {
+                margin-top: 8px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
+
+.small_card {
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DADADA;
+    margin-top: 40px;
+
+    &:first-child {
+        margin-top: 0;
+    }
+
+    .content_wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        img {
+            max-height: 100px;
+            max-width: 100px;
+            object-fit: cover;
+        }
+
+        .text_wrap {
+            span {
+                color: #8D8E97;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            p {
+                margin-top: 8px;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
+
+
+
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+
+    .like_btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        i {
+            font-size: 20px;
+        }
+
+        span {
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    .left_btn {
+        display: flex;
+        gap: 25px;
+    }
+
+    .right_btn {
+        display: flex;
+        gap: 25px;
+    }
+}

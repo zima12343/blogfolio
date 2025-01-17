@@ -1,0 +1,40 @@
+.form {
+    width: 625px;
+    padding: 40px;
+    border: 1px solid #DADADA;
+    display: block;
+    margin: auto;
+
+    .forgotPass {
+        display: block;
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #313037;
+        cursor: pointer;
+    }
+}
+
+.noAccount {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9b9898;
+}
+
+.signUp {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2231AA;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
